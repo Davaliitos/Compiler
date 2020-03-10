@@ -74,3 +74,5 @@ bison -d final.y
 flex final.l
 gcc lex.yy.c final.tab.c -o final
 
+./final.exe <name-of-text-file>
+
