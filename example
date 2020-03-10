@@ -1,0 +1,21 @@
+var x : int;
+var y : int
+fun ff(z : int) : int
+var w : int
+begin
+end
+begin
+   x<-10;
+   y<-20;
+   ifelse (x < y)
+   begin
+      x <- x + 1;
+      y <- x + 2*x
+   end
+   begin
+      x <- x * 2;
+      y <- (2+1) * (y + x)
+   end;
+   print y;
+   print x
+end
